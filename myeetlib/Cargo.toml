@@ -1,0 +1,18 @@
+[package]
+name = "myeetlib"
+version = "0.1.0"
+authors = ["Connor OHara <chuckhead7@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-tungstenite = "*"
+async-std = "1.6.0"
+futures = "0.3.5"
+serde_json = "1.0"
+serde = {version = "1.0.110", features = ["derive"]}
+time = "0.1.37"
+flurry = "0.3.1"
+linked-hash-map = "0.5.3"
+mysql = "18.2.0"
